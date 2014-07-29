@@ -1,0 +1,17 @@
+{
+  "name": "",
+  "version": "",
+  "spm": {
+    "main":"jslib/news/detail.js",
+    "output": [
+      "html/news/detail.html",
+      "csslib/news/detail.css",
+      "jslib/news/detail.js"
+    ],
+    "dependencies": {
+      "jquery": "1.10.2"
+    },
+    "ignore":["utils"],
+    "buildArgs": "--ignore jquery,base"
+  }
+}
